@@ -17,5 +17,6 @@ describe SingaporeRelativeClock do
 	
 	it "should return +2.5 if the given city is Bangalore" do
 		@clock.timeDifferenceTo("Bangalore").should === +2.5
-end	
+end
+
 end
