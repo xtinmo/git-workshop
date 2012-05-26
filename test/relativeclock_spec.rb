@@ -10,7 +10,7 @@ describe SingaporeRelativeClock do
 	end
 
 	it "should return -2 if the given city is Sydney" do
-
+		@clock.hoursDifferenceTo("Sydney").should === -2
 	end
 
 	it "should return 0 if the given city is Singapore" do
