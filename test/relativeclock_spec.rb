@@ -1,8 +1,6 @@
 require 'singapore_relative_clock'
-#!/user/bin/ruby -w
-time=Time.new
 
-#Components of a Time 
+time=Time.new
 
 describe SingaporeRelativeClock do
 	before(:all) do
